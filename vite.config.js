@@ -4,7 +4,7 @@ export default defineConfig(function (_a) {
     var mode = _a.mode;
     return ({
         plugins: [react()],
-        base: mode === 'production' ? '/Portfolio_Blender/' : './',
+        base: mode === 'production' ? '/Blender_Portfolio/' : './',
         server: {
             port: 3000,
             host: '0.0.0.0',
